@@ -1,2 +1,7 @@
-# suriani.info
-Blog suriani.info
+# Blog suriani.info
+
+# Development
+Run locally:
+```
+docker compose up
+```

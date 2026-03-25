@@ -1,0 +1,33 @@
+title: Suriani
+description: Blog by Marcos Jonatan Suriani — software engineer focused on distributed systems, architecture, and technical leadership.
+url: "https://suriani.info"
+baseurl: ""
+
+author:
+  name: Marcos Jonatan Suriani
+  email: jonatansuriani@gmail.com
+
+# Minima 2.x (used by GitHub Pages): footer social icon
+linkedin_username: marcosjonatansuriani
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Overridden per post via `permalink` (matches Wix: /en/post/... and /post/...).
+permalink: /:year/:month/:day/:title:output_ext
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - scripts
+  - Dockerfile
+  - .dockerignore
+  - docker-compose.yml
